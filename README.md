@@ -34,7 +34,7 @@ The application also utilizes [Moment.js](https://momentjs.com/) library to get 
 
 - When user refreshes the page, all the saved events will still be available in the page for the user to review
 
--Here is an image of the application page:
+- Here is an image of the application page:
 
 ![Daily planner application](/Assets/snapshots/dailyplanner.PNG)
 
