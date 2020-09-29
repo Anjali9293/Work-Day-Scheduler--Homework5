@@ -1,9 +1,7 @@
 //using moment to get the current day in dd/mm/yy format
 const currentDay = moment().format("dddd, MMMM Do YYYY");
-console.log(currentDay);
 //using moment to get the current hour in 24 hrs format
-// const currentHour = parseInt(moment().format("H")); 
-const currentHour = 15;
+const currentHour = parseInt(moment().format("H")); 
 //function to convert time from 24 hrs format to 12 hrs format and returning just the hour as a number
 function convert12To24Hour(num) {
     return parseInt(moment(num, ["h A"]).format("HH"))
